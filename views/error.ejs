@@ -1,0 +1,15 @@
+<% layout('campgrounds/layouts/boilerplate.ejs') %>
+    <div class="row">
+        <div class="col-8 offset-2">
+            <div class="alert alert-danger" role="alert">
+                <h4 class="alert-heading">
+                    <%= err._message %>
+                </h4>
+                <p>
+                    <%= err.stack %>
+                </p>
+                <hr>
+                <p class="mb-0">Have a look at your console!</p>
+            </div>
+        </div>
+    </div>
